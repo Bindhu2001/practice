@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="form">
+        <h2>Registration Form</h2>
+        <form action="" id="form-detail">
+            <div class="input">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname">
+                <div class="error"></div>
+            </div>
+            <div class="input">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname">
+                <div class="error"></div>
+            </div>
+            <div class="input"> 
+                <div class="gender-options">
+                    <label>Gender:</label>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender" value="male"> Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender" value="female"> Female
+                    </label>
+                </div>
+                <div class="error"></div>
+            </div>
+            <div class="input">
+                <label for="mobile">Mobile Number:</label>
+                <input type="text" id="mobile" >
+                <div class="error"></div>
+            </div>
+            <div class="btn">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form> 
+    </div>
+    <div id="details">
+    
+    </div>
+
+    <script src="stript.js"></script>
+</body>
+</html>
+
